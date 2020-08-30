@@ -3,7 +3,7 @@
 
 /* compile time types, from functionlist() */
 
-#define TYPE_UNKNOWN    0       /* This type must be casted */
+#define TYPE_UNKNOWN    0       /* This type must be cast */
 #define TYPE_NUMBER     1
 #define TYPE_STRING     2
 #define TYPE_VOID       3

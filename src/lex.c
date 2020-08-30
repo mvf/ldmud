@@ -229,7 +229,7 @@ Bool pragma_share_variables;
    */
 
 Bool pragma_warn_empty_casts;
-  /* True: warn if a type is casted to itself.
+  /* True: warn if a type is cast to itself.
    */
 
 Bool pragma_rtt_checks;
