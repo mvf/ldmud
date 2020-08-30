@@ -390,6 +390,10 @@
  */
 @cdef_python_script@ PYTHON_STARTUP_SCRIPT @val_python_script@
 
+/* Define this if you want alist support.
+ */
+@cdef_use_alists@ USE_ALISTS
+
 /* Define this if you want PCRE instead of traditional regexps.
  */
 @cdef_use_pcre@ USE_PCRE

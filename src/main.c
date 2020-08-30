@@ -2009,6 +2009,9 @@ options (void)
 #ifdef USE_IPV6
                               , "IPv6 supported\n"
 #endif
+#ifdef USE_ALISTS
+                              , "Alists supported\n"
+#endif
 #ifdef USE_MCCP
                               , "MCCP supported\n"
 #endif
