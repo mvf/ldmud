@@ -851,6 +851,9 @@ init_lexer(void)
 #ifdef USE_JSON
     add_permanent_define_str("__JSON__", -1, "1");
 #endif
+#ifdef USE_ALISTS
+    add_permanent_define_str("__ALISTS__", -1, "1");
+#endif
 #ifdef HAS_PCRE
     add_permanent_define_str("__PCRE__", -1, "1");
 #endif
