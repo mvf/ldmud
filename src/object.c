@@ -5199,8 +5199,8 @@ f_set_light (svalue_t *sp)
 {
     object_t *o1;
 
-    add_light(current_object, sp->u.number);
-    o1 = current_object;
+    add_light(current_object.u.ob, sp->u.number);
+    o1 = current_object.u.ob;
     while (o1->super)
         o1 = o1->super;
     sp->u.number = o1->total_light;
