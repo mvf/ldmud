@@ -1989,7 +1989,7 @@ check_unknown_type (lpctype_t* t)
 {
     if (t == lpctype_unknown)
     {
-        yyerror("Function call result must be casted due to pragma strict_types");
+        yyerror("Function call result must be cast due to pragma strict_types");
         return true;
     }
 
@@ -13043,9 +13043,9 @@ function_call:
               /* It's a real simul-efun */
 
               $<function_call_head>$.simul_efun = real_name->u.global.sim_efun;
-              /* real_name->u.global.sim_efun is also unsigned, so it can
-               * be casted to unsigned long before comparison (SEFUN_TABLE_SIZE
-               * is unsigned long) */
+              /* real_name->u.global.sim_efun is also unsigned, so it can be
+               * cast to unsigned long before comparison (SEFUN_TABLE_SIZE is
+               * unsigned long) */
               if ((unsigned long)real_name->u.global.sim_efun >= SEFUN_TABLE_SIZE)
               {
                   /* The simul-efun has to be called by name:

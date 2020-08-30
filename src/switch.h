@@ -140,7 +140,7 @@
 struct case_list_entry_s
 {
     case_list_entry_t *next;
-    p_int key;   /* Numeric case value, or a shared string casted */
+    p_int key;   /* Numeric case value, or a shared string ptr */
     p_int addr;
       /* Offset of the associated code from the SWITCH+1.
        * If 1: this and the next entry denote a range.

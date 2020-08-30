@@ -45,8 +45,8 @@ DESCRIPTION
 
         The return type of call_other() is 'any' be default. However,
         if your LPC code uses #pragma strict_types, the return type is
-        'unknown', and the result of call_other() must be casted to
-        the appropriate type before you can use it for anything.
+        'unknown', and the result of call_other() must be cast to the
+        appropriate type before you can use it for anything.
 
 EXAMPLES
         // All the following statements call the lfun QueryProp()

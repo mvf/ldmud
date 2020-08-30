@@ -50,7 +50,7 @@ enum type_classes
 /* --- Primary type values --- */
 enum primary_types
 {
-    TYPE_UNKNOWN      =  0,   /* This type must be casted */
+    TYPE_UNKNOWN      =  0,   /* This type must be cast */
     TYPE_NUMBER       =  1,
     TYPE_STRING       =  2,
     TYPE_VOID         =  3,

@@ -6811,7 +6811,7 @@ See the file HISTORY for a user-oriented summary of all the changes.
    Included changes up to 3.2.9-dev.255:
     - (smalloc.c) Removed a compilation error (reported by Coogan).
     - (strfuns.c) When (re)allocating the strbuf buffer, the length was
-        accidentally casted down to unsigned short, causing the program
+        accidentally cast down to unsigned short, causing the program
         to write outside the allocated memory (reported by Sebastian).
     - (smalloc.c) Using the time_stamp() from within the allocation routines
         was really stupid.
@@ -7699,7 +7699,7 @@ See the file HISTORY for a user-oriented summary of all the changes.
          symbol AMIGA is made undefined.
 
 07-Apr-2000 (Lars Duening)  (3.2.8-dev.183)
-    - (gcollect.c) Found another void-function casted to a value, this
+    - (gcollect.c) Found another void-function cast to a value, this
          time it's writed().
     - (smalloc.c) Increasing the SMALL_BLOCK_SIZE to 32 caused
          crashes in UNItopia, manifesting themselves in garbage

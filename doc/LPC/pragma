@@ -18,7 +18,7 @@ DESCRIPTION
         weak_types: no type checking (this is the default).
         strict_types: all functions must be declared with argument
                 prototypes, and the return values of call_other() must
-                be casted.
+                be cast.
         strong_types: all functions must be declared with complete
                 types of return value and parameters.
         save_types: the declaration data is kept after compilation and
