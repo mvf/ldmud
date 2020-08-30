@@ -24,6 +24,7 @@ enable_malloc_lpc_trace=yes
 enable_malloc_trace=yes
 enable_strict_euids=yes
 enable_synchronous_heart_beat=yes
+enable_use_alists=yes
 enable_use_deprecated=no
 enable_use_json=yes
 enable_use_parse_command=no
