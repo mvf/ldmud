@@ -701,6 +701,12 @@ mixed   json_parse(string);
 string  process_string(string);
 #endif
 
+        /* Objects */
+
+#ifdef USE_SET_LIGHT
+int     set_light(int);
+#endif
+
         /* Obsolete and deprecated functions */
 
 #ifdef USE_DEPRECATED
